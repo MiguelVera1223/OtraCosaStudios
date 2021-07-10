@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="./img/OtraCosa.jpg">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/Variables.css">
     <title>OtraCosaStudios</title>
 
 
@@ -15,49 +15,51 @@
 
 <body>
 
-
     <header class="header">
-        <a href="#" class="header__logo">Miguel Vera</a>
-        <div class="header__toggle">
-            <box-icon name='menu' class="header__toggle" id="nav-toggle"></box-icon>
+        <a href="#" class="header__logo">OtraCosaStudios</a>
 
-        </div>
-
+        <ion-icon name="menu" class="header__toggle" id="nav-toggle" ></ion-icon>
         <nav class="nav" id="nav-menu">
-
             <div class="nav__content bd-grid">
-                <a href="#" class="nav__perfil">
+
+                <ion-icon name="close" class="nav__close" id="nav-close"></ion-icon>
+                <div class="nav__perfil">
                     <div class="nav__img">
                         <img src="./img/OtraCosa.jpg" alt="">
                     </div>
-
+                    
                     <div>
-                        <span class="nav__name">Miguel</span>
-                        <span class="nav__name">Vera</span>
+                        <a href="#" class="nav__name">Marketing Digital </a> 
+                        <span class="nav__profesion">Productora Audiovisual</span>
                     </div>
-                </a>
-
-                
-
-
-        
+                </div>
 
                 <div class="nav__menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="" class="nav__link">Servicios</a></li>
-                        <li class="nav__item"><a href="" class="nav__link">Nosotros</a></li>
-                        <li class="nav__item"><a href="" class="nav__link">Clientes</a></li>
-                        <li class="nav__item"><a href="" class="nav__link">Portafolio</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link active">Servicios</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Nosotros</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Clientes</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                    
                     </ul>
+                </div>
+
+                <div class="nav__social">
+                    <a href="#" class="nav__social-icon"><ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#" class="nav__social-icon"><ion-icon name="logo-youtube"></ion-icon></a>
+                 
                 </div>
             </div>
         </nav>
-
-
     </header>
 
 
-    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <!-- ==== IONICONS-->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+   
     <script src="./js/main.js"></script>
 
 </body>
