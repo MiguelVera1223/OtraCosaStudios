@@ -1,13 +1,18 @@
 @import url("./Variables.css");
 @import url("./Header.css");
-
-
+@import url("./Home.css");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 
 body {
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    font-weight: 520;
+    color: var(--dark-color);
+    line-height: 1.6;
   }
   
