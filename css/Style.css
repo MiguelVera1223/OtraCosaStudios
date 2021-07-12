@@ -1,10 +1,15 @@
 @import url("./Variables.css");
 @import url("./Header.css");
 @import url("./Home.css");
+@import url("./Collection.css");
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 
