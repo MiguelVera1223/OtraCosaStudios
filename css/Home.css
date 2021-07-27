@@ -1,23 +1,26 @@
 
 
-.home{
-    background-color: red;
-    
-}
 
 .home__container{
     height: cacl(100vh - var(--header-height));
 }
+.bd-container{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .home__data{
     padding-top: 6rem;
+    text-align: center;
     
 }
 .home__title{
     align-self: center;
     font-size: var(--h1-font-size);
     line-height: 1.3;
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
     
 }
 .home__title span{
@@ -26,11 +29,7 @@
 }
 
 .home__img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    
+    width: 50%;
 }
 
 /*BUTTONS*/ 
