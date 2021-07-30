@@ -1,8 +1,27 @@
 
+.home{
+    min-height: 100vh;
+    background-image: url("../img/alexander-dummer-aS4Duj2j7r4-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed ;
 
+}
+.home article {
+  
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsla(267, 85%, 6%, 0.5);
+    
+}
 
 .home__container{
     height: cacl(100vh - var(--header-height));
+   
 }
 .bd-container{
    
@@ -14,6 +33,7 @@
 .home__data{
     padding-top: 6rem;
     text-align: center;
+
     
 }
 .home__title{
@@ -21,6 +41,7 @@
     font-size: var(--h1-font-size);
     line-height: 1.3;
     margin-bottom: 1.5rem;
+    color: #ffffff;
     
 }
 .home__title span{
