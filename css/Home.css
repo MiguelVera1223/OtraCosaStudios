@@ -31,9 +31,9 @@
 }
 
 .home__data{
-    padding-top: 6rem;
+    
     text-align: center;
-
+    
     
 }
 .home__title{
@@ -63,6 +63,7 @@
     font-size: var(--small-font-size);
     font-weight: var(--font-semi);
     transition: .3s;
+    border-radius: 5px;
 }
 
 .button:hover{
