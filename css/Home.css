@@ -18,7 +18,36 @@
     background-color: hsla(267, 85%, 6%, 0.5);
     
 }
+article{
+    
+}
 
+.home article span {
+  
+   position: absolute;
+   background: #ffffff;
+   pointer-events: none;
+   animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1) translateY(-500%) rotate(360deg);
+        opacity: 0;
+    }
+
+}
 .home__container{
     height: cacl(100vh - var(--header-height));
    
@@ -44,9 +73,12 @@
     color: #ffffff;
     
 }
-.home__title span{
+.home__title a {
     font-size: var(--h1-font-size);
-    font-weight: 10;
+    font-weight: 20;
+    color: #ffffff;
+  
+    
 }
 
 .home__img{
